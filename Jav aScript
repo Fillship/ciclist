@@ -1,0 +1,7 @@
+var name='Fil'
+const lastname='ship'
+let age = 26
+
+name='lif'
+
+console.log(name)
