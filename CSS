@@ -2,3 +2,34 @@ header h1 {
   box-shadow: 10px 5px 5px black,  -1em 0 .4em olive;
   text-align: center;
  }
+
+main h2 {
+  font-size:30px;
+  text-align: center;
+  color:royalblue;
+}  
+
+main {
+  background: #EAC39E
+}
+
+.g {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    display: flex;
+    text-align: center;
+}
+
+.h {
+    border: 10px ridge #f00;
+    background-color: #f0A;
+    display: flex;
+    text-align: center;
+}
+
+.j {
+    border: 10px ridge #f00;
+    background-color: #ff7A00;
+    display: flex;
+    text-align: center;
+}
