@@ -11,7 +11,7 @@
   </header>
   <main>
     <h2>Здесь  вы можете подобрать подходящий для себя велосепед</h2>
-      <p><div class="g">
+      <div class="g">
         <img src="https://pro-bike.ru/data/images/catalog/86/28986/1_1.jpg" width="230px"/>
         <h4>Merida Silex 300</h4>
       </div>
@@ -22,7 +22,11 @@
     <div class="j">
       <img src="https://pro-bike.ru/data/images/catalog/22/30722/1.jpg" width="230px"/>
       <h4>Forward Barcelona 26 1.0</h4>
-      </div></p>
+      </div>
+      <div class="j">
+      <img src="https://avatars.mds.yandex.net/get-marketpic/216195/market_J9KnNFpsaFFjKL_xHp-Cvg/orig" width="230px"/>
+      <h4>STELS Navigator 245 Z010</h4>
+      </div>
   </main>
   <footer>
 </footer>
