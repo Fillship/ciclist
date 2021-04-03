@@ -1,49 +1,35 @@
-header h1 {
-  box-shadow: 10px 5px 5px black,  -1em 0 .4em olive;
-  text-align: center;
- }
-
-main h2 {
-  font-size:30px;
-  text-align: center;
-  color:royalblue;
-}  
-
-main {
-  background: #EAC39E
-}
-
-.g {
-    border: 10px ridge #f00;
-    background-color: #ff0;
-    display: flex;
-    text-align: center;
-    border-radius: 50px;
-    width: 350px;
-}
-
-.h {
-    border: 10px ridge #f00;
-    background-color: #f0A;
-    display: flex;
-    text-align: center;
-    border-radius: 50px;
-    width: 350px;
-}
-
-.j {
-    border: 10px ridge #f00;
-    background-color: #ff7A00;
-    display: flex;
-    text-align: center;
-    border-radius: 50px;
-    width: 350px;
-}
-
-.q {
-  float: right;
-}
-
-img {
-  border-radius: 50px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>bicycles</title>
+</head>
+<body style="font-family:sans-serif">
+  <header>
+    <h1>🚲BICYCLES</h1>
+  </header>
+  <main>
+    <h2>Также велосепеды классифицируются по их редкости:<br/><span class="yt"><img src="data:image/jpeg;base64,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" width="30px"/>редкий<br/><img src="https://emojitool.ru/img/facebook/4.0/large-purple-square-4338.png" width="30px"/>эпический<br/><img src="https://c0.klipartz.com/pngpicture/765/862/gratis-png-color-amarillo-cuadrado-amarillo-s.png" width="30px"/>легендарный.</span></h2>
+    <h2>Здесь  вы можете подобрать подходящий для себя велосепед</h2>
+      <div class="g">
+        <img src="https://pro-bike.ru/data/images/catalog/86/28986/1_1.jpg" width="230px"/>
+        <h4>Merida Silex 300</h4>
+      </div>
+    <div class="j">
+      <img src="https://pro-bike.ru/data/images/catalog/22/30722/1.jpg" width="230px"/>
+      <h4>Forward Barcelona 26 1.0</h4>
+      </div>  
+    <div class="h">
+        <img src="https://pro-bike.ru/data/images/catalog/83/30383/1.jpg" width="230px"/>
+      <h4>Forward Enigma 24 3.0</h4>
+      </div>
+      <div class="w">
+      <img src="https://www.velostrana.ru/upload/models/velo/6270/big.jpg" width="230px"/>
+      <h4>Dahon Ciao Electric</h4>
+      </div>
+  <footer>
+</footer>
+    <script src="JavaScript"></script>
+</body>
+</html>
