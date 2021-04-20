@@ -1,12 +1,31 @@
+a {
+  text-decoration:none;
+  font-size:20px;
+  text-align:center;
+  margin:10px;
+}
+
+a:hover {
+  color:white;
+  text-decoration:underline;
+  font-family:Lucida Console;
+}
+
+a:active {
+  color:green;
+  text-decoration:overline black;
+}
+
 header h1 {
   box-shadow: 10px 5px 5px black,  -1em 0 .4em olive;
   text-align: center;
  }
 
-.er {
+main h2 {
   font-size:30px;
   text-align: center;
   color:royalblue;
+  text-align: rigth;
 }  
 
 main {
@@ -16,15 +35,16 @@ main {
 .g {
     border: 10px ridge #f00;
     background-color: #ff7A00;
+    display: flex;
     text-align: center;
     border-radius: 50px;
     width: 350px;
-
 }
 
 .h {
     border: 10px ridge #f00;
     background-color: #f0A;
+    display: flex;
     text-align: center;
     border-radius: 50px;
     width: 350px;
@@ -33,6 +53,7 @@ main {
 .j {
     border: 10px ridge #f00;
     background-color: #ff7A00;
+    display: flex;
     text-align: center;
     border-radius: 50px;
     width: 350px;
@@ -41,16 +62,10 @@ main {
 .w {
     border: 10px ridge #f00;
     background-color: #ff0;
+    display: flex;
     text-align: center;
     border-radius: 50px;
     width: 350px;
-}
-
-.al {
-  flex-wrap: wrap;
-  display: flex;
-  max-width: 1100px;
-  margin: 10px;
 }
 
 img {
