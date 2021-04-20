@@ -1,9 +1,9 @@
 <html>
-<head>
-  <link rel="stylesheet" href="style.css"/>
-  <title>bicycles</title>
-</head>
-<body style="font-family:sans-serif">
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>bicycles</title>
+    </head>
+    <body style="font-family:sans-serif">
   <header>
     <h1>🚲BICYCLES</h1>
   </header>
@@ -26,8 +26,5 @@
       <img src="https://www.velostrana.ru/upload/models/velo/6270/big.jpg" width="230px"/>
       <a href="">Dahon Ciao Electric</a>
       </div>
-  <footer>
-</footer>
-    <script src="JavaScript"></script>
-</body>
+  </body>
 </html>
