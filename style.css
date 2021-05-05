@@ -1,3 +1,7 @@
+.login a:hover p {
+  display:block;
+}
+
 .WI {
   display:flex;
   flex-wrap: wrap;
@@ -30,7 +34,7 @@ main h2 {
   font-size:30px;
   text-align: center;
   color:royalblue;
-  text-align: rigth;
+
 }  
 
 main {
@@ -56,20 +60,28 @@ main {
 
 img {
   border-radius: 50px;
-box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 5px 5px black;
+  opacity: 0.7;
+
 }
 
 div {
     margin: 10px;
 }
 
-img {
-    opacity: 0.5;
-
-}
 
 img:hover {
-    opacity: 1;
-    
+  opacity: 1;
 }
 
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 25px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    text-align: center;
+   }
