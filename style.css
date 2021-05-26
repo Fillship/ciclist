@@ -85,3 +85,19 @@ ul.hr {
     padding: 3px; /* Поля вокруг текста */
     text-align: center;
    }
+
+.add {
+
+  border:5px solid blue;
+  text-shadow: 1px 1px 2px red, 0 0 2em blue, 0 0 0.2em blue;
+  float: right;
+  height: 100px;
+  display: block;
+  position: fixed;
+  left: 800px;
+}
+
+.ot {
+  color: red;
+  font-size: 30px;
+}
