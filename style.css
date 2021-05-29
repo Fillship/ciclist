@@ -77,6 +77,9 @@ img:hover {
 ul.hr {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
+    justify-content: space-between;
+    display: flex;
+    
    }
    ul.hr li {
     display: inline; /* Отображать как строчный элемент */
@@ -87,16 +90,17 @@ ul.hr {
    }
 
 .add {
-
   border:5px solid blue;
   text-shadow: 1px 1px 2px red, 0 0 2em blue, 0 0 0.2em blue;
   float: right;
   height: 100px;
-  display: block;
+  display: inline-block;
   position: fixed;
+  margin-left: 80%;
 }
 
 .ot {
   color: red;
   font-size: 30px;
 }
+
