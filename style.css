@@ -1,1 +1,10 @@
+h1:first-child {
+  text-align: center;
+  color: navy;
+  border: 5px solid navy;
+  background: linear-gradient(to right, yellow, red);
+}
 
+h1:first-child:hover {
+  transform: rotate(0.5turn);
+}
